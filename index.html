@@ -1,12 +1,12 @@
 <!doctype html><html lang="ar"><head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" name="viewport">
-<title>MOHASABRY AI — مساحة الذكاء الاصطناعي</title>
-<meta content="MOHASABRY AI — منصة ذكاء اصطناعي" name="description">
-<meta content="MOHASABRY AI" name="application-name">
+<title>WormGPT — مساعد الذكاء الاصطناعي</title>
+<meta content="WormGPT — مساعد ذكاء اصطناعي" name="description">
+<meta content="WormGPT" name="application-name">
 <meta content="#08111f" name="theme-color">
-<meta content="MOHASABRY AI" property="og:title">
-<meta content="MOHASABRY AI – مساعد ذكاء اصطناعي" property="og:description">
+<meta content="WormGPT" property="og:title">
+<meta content="WormGPT – مساعد ذكاء اصطناعي" property="og:description">
 <link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d0507'/%3E%3Cg fill='none' stroke='%23ff2233' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20.5 6.6c0 3.4-9 3-9 7.4s8.2 3.6 8.2 7.4c0 2-1.7 3.4-4.2 3.4'/%3E%3Ccircle cx='20.5' cy='6.6' r='2.4' fill='%23ff2233' stroke='none'/%3E%3C/g%3E%3C/svg%3E" rel="icon" type="image/svg+xml">
 
 <script src="config.js"></script>
@@ -1757,7 +1757,7 @@
             }
         }
     
-/* MOHASABRY AI — visual system */
+/* WormGPT — visual system */
 :root {
   --bg: #08111f;
   --sidebar-bg: rgba(7, 17, 30, .88);
@@ -1796,7 +1796,7 @@ body { background-image: radial-gradient(900px 520px at 78% -10%, rgba(113, 71, 
 .settings-trigger { border: 1px solid transparent; }
 .settings-trigger:hover { border-color: rgba(99,244,209,.2); }
 .chat-area { position: relative; background: transparent; }
-.chat-area::before { content: 'MOHASABRY // AI WORKSPACE'; position: absolute; top: 82px; left: 32px; color: rgba(99,244,209,.25); font: 10px var(--mono); letter-spacing: .18em; pointer-events: none; z-index: 2; }
+.chat-area::before { content: 'WORMGPT // AI ASSISTANT'; position: absolute; top: 82px; left: 32px; color: rgba(99,244,209,.25); font: 10px var(--mono); letter-spacing: .18em; pointer-events: none; z-index: 2; }
 .top-bar { height: 74px; background: rgba(8,17,31,.68); border-bottom: 1px solid rgba(99,244,209,.12); backdrop-filter: blur(18px); }
 .top-bar-inner { justify-content: flex-start; padding: 0 28px; }
 .model-badge-static { padding: 9px 13px; border: 1px solid rgba(99,244,209,.24); border-radius: 999px; background: rgba(11,30,45,.7); box-shadow: 0 0 18px rgba(99,244,209,.07); }
@@ -1890,7 +1890,7 @@ body{background:radial-gradient(900px 550px at 80% -10%,rgba(105,91,220,.22),tra
 <circle cx="20" cy="6.2" fill="currentColor" r="2.3" stroke="none"></circle>
 <path d="M11 12.4h.01M14.6 16.6h.01" stroke-width="2.6"></path>
 </svg>
-<span class="sidebar-logo-text">MOHASABRY</span>
+<span class="sidebar-logo-text">WormGPT</span>
 </div>
 <button aria-label="طي الشريط الجانبي" data-i18n-aria="ariaCollapse" class="sidebar-collapse-btn" id="sidebarCollapseBtn">
 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -1936,7 +1936,7 @@ body{background:radial-gradient(900px 550px at 80% -10%,rgba(105,91,220,.22),tra
 <div class="top-bar-inner">
 <div class="model-badge-static" title="النموذج المستخدم">
 <span class="model-badge-dot"></span>
-<span id="selectedModelLabel">MOHASABRY AI</span><span class="top-separator">/</span><span class="top-microcopy">مساحة العمل الذكية</span>
+<span id="selectedModelLabel">WormGPT</span>
 </div>
 </div>
 </div>
@@ -1951,13 +1951,7 @@ body{background:radial-gradient(900px 550px at 80% -10%,rgba(105,91,220,.22),tra
 </div>
 <h1 class="welcome-title" data-i18n="welcomeTitle">كيف أقدر أساعدك اليوم؟</h1>
 <div class="welcome-sub" data-i18n="welcomeSub">اكتب سؤالك، أو ارفع ملفًا، أو سجّل صوتك — وسأجيبك فورًا.</div>
-<div class="future-deck" aria-label="لوحة معلومات MOHASABRY AI">
-  <div class="deck-line"><span class="signal-dot"></span><span>النظام متصل</span><strong>2600.04</strong></div>
-  <div class="deck-grid">
-    <div class="deck-card"><span class="deck-label">زمن الاستجابة</span><strong>12<span>ms</span></strong><small>متوسط القناة</small></div>
-    <div class="deck-card"><span class="deck-label">قناة البحث</span><strong>ON</strong><small>المعرفة المتصلة</small></div>
-    
-  </div>
+</div>
 </div>
 </div>
 </div>
@@ -2142,7 +2136,7 @@ body{background:radial-gradient(900px 550px at 80% -10%,rgba(105,91,220,.22),tra
             'use strict';
 
             const MODEL_ID = 'DeepSeek-R1-0528';
-            const MODEL_LABEL = 'MOHASABRY AI';
+            const MODEL_LABEL = 'WormGPT';
             const API_URL = ((window.WORMGPT_API || '').replace(/\/+$/, '')) + '/api/chat';
             const FIXED_MODEL = { id: MODEL_ID, name: MODEL_LABEL, type: 'chat' };
 
@@ -2150,7 +2144,7 @@ body{background:radial-gradient(900px 550px at 80% -10%,rgba(105,91,220,.22),tra
                 ? window.WORMGPT_SYSTEM_PROMPT.trim()
                 : '';
             if (!SYSTEM_PROMPT && window.console && console.warn) {
-                console.warn('[MOHASABRY AI] لم يُحمّل ملف prompt.js — سيعمل النموذج بدون تعليمات. تأكد من وجود الملف بجانب index.html');
+                console.warn('[WormGPT] لم يُحمّل ملف prompt.js — سيعمل النموذج بدون تعليمات. تأكد من وجود الملف بجانب index.html');
             }
 
             let models = [FIXED_MODEL];
@@ -2490,7 +2484,7 @@ body{background:radial-gradient(900px 550px at 80% -10%,rgba(105,91,220,.22),tra
                 const table = I18N[LANG] || I18N.ar;
                 document.documentElement.setAttribute('lang', LANG);
                 document.documentElement.setAttribute('dir', table.dir);
-                document.title = LANG === 'en' ? 'MOHASABRY AI – AI Workspace' : 'MOHASABRY AI – مساحة الذكاء الاصطناعي';
+                document.title = LANG === 'en' ? 'WormGPT – AI Assistant' : 'WormGPT – مساعد الذكاء الاصطناعي';
                 document.querySelectorAll('[data-i18n]').forEach(function (el) {
                     const key = el.getAttribute('data-i18n');
                     if (table[key] !== undefined) el.textContent = table[key];
@@ -2536,13 +2530,6 @@ body{background:radial-gradient(900px 550px at 80% -10%,rgba(105,91,220,.22),tra
                 '</div>' +
                 '<h1 class="welcome-title"></h1>' +
                 '<div class="welcome-sub"></div>' +
-                '<div class="future-deck" aria-label="لوحة معلومات MOHASABRY AI">' +
-                '<div class="deck-line"><span class="signal-dot"></span><span>النظام متصل</span><strong>2600.04</strong></div>' +
-                '<div class="deck-grid">' +
-                '<div class="deck-card"><span class="deck-label">زمن الاستجابة</span><strong>12<span>ms</span></strong><small>متوسط القناة</small></div>' +
-                '<div class="deck-card"><span class="deck-label">قناة البحث</span><strong>ON</strong><small>المعرفة المتصلة</small></div>' +
-                '' +
-                '</div></div>' +
                 '</div>';
 
             function showWelcome() {
